@@ -36,4 +36,4 @@ Make Chairs: 2.0
 
 Make Tables: 32.0
 
-Max Profit: ₹ 1000.0
+Max Profit: 1000.0
