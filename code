@@ -1,0 +1,26 @@
+# Install PuLP library
+!pip install pulp
+from pulp import *
+
+# Create the optimization problem
+model = LpProblem("Maximize_Profit", LpMaximize)
+
+# Decision variables
+chairs = LpVariable("Chairs", lowBound=0, cat='Integer')
+tables = LpVariable("Tables", lowBound=0, cat='Integer')
+
+# Objective: Maximize profit
+model += 20 * chairs + 30 * tables, "Total_Profit"
+
+# Constraints
+model += 3 * chairs + 4 * tables <= 240, "Labor_Limit"
+model += 2 * chairs + 3 * tables <= 100, "Wood_Limit"
+
+# Solve
+model.solve()
+
+# Results
+print("Status:", LpStatus[model.status])
+print("Make Chairs:", chairs.varValue)
+print("Make Tables:", tables.varValue)
+print("Max Profit: ₹", value(model.objective))
