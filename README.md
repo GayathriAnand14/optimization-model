@@ -19,12 +19,21 @@ Application: Manufacturing,Supply Chain & Logistics,Finance,Human Resource Plann
 #OUTPUT
 
 Collecting pulp
+
   Downloading pulp-3.2.1-py3-none-any.whl.metadata (6.9 kB)
+  
 Downloading pulp-3.2.1-py3-none-any.whl (16.4 MB)
+
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.4/16.4 MB 96.9 MB/s eta 0:00:00
+   
 Installing collected packages: pulp
+
 Successfully installed pulp-3.2.1
+
 Status: Optimal
+
 Make Chairs: 2.0
+
 Make Tables: 32.0
+
 Max Profit: ₹ 1000.0
