@@ -10,11 +10,7 @@
 
 *DURATION*: NEELA SANTHOSH
 
-## This task focuses on solving a real-world business problem using optimization techniques, specifically Linear Programming (LP). The objective was to maximize or minimize a business outcome—such as profit or cost—by finding the best combination of decision variables under given constraints.In our example, we modeled a Product Mix Optimization problem. A factory manufactures chairs and tables, each contributing to profit and consuming limited resources like labor hours and wood. The goal was to determine the optimal number of chairs and tables to produce to maximize profit, while staying within resource limits.The problem was modeled mathematically and solved using Python, showcasing how optimization can be applied in industrial and business scenarios to make efficient, data-driven decisions.
-
-## Tools Used: Python,PuLP Library,Google Colab.
-
-## Application: Manufacturing,Supply Chain & Logistics,Finance,Human Resource Planning,Agriculture.
+## This task focuses on solving a real-world business problem using optimization techniques, specifically Linear Programming (LP). The objective was to maximize or minimize a business outcome—such as profit or cost—by finding the best combination of decision variables under given constraints.In our example, we modeled a Product Mix Optimization problem. A factory manufactures chairs and tables, each contributing to profit and consuming limited resources like labor hours and wood. The goal was to determine the optimal number of chairs and tables to produce to maximize profit, while staying within resource limits.The problem was modeled mathematically and solved using Python, showcasing how optimization can be applied in industrial and business scenarios to make efficient, data-driven decisions.**Tools Used:** Python,PuLP Library,Google Colab.**Application:** Manufacturing,Supply Chain & Logistics,Finance,Human Resource Planning,Agriculture.
 
 # OUTPUT
 
